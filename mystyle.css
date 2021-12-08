@@ -1,0 +1,78 @@
+body {
+    background: #C4C4C4;
+    padding: 40px 15% 40px 10%;
+    font-size: 18px;
+    font-family: Roboto, monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+#refresh {
+    display: inline-block;
+    border-radius: 10px;
+    background: #DAC1AE;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#refresh div:first-child {
+    transform: rotate(180deg);
+}
+
+#box-top {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#box-top div {
+    flex: 1;
+}
+
+#box-second {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px 0 0 -.5rem; /* offset margin to the left and avoid horizontal scrollbar*/
+}
+
+#box-second div {
+    flex: 1 0 15%;
+    margin: 0 0 .5rem .5rem;
+}
+
+.box {
+    border-radius: 10px;
+    background: #DAC1AE;
+    padding: 10px 15px;
+    width: 220px;
+}
+
+.line {
+    display: flex;
+}
+
+.line div {
+    flex: 1;
+}
+
+.label {
+    flex: 3 1 auto !important;
+    width: 180px;
+}
+
+.value {
+    text-align: center;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.small2 {
+    font-size: 12px;
+}
+
+.wrapper {
+    display: block;
+}
